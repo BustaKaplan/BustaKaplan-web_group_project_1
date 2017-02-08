@@ -8,5 +8,29 @@ body {
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(min-width: 940px)
+#cat-titude{
+  text-align:center;
+  font-size:32px;}
+
+.title-p{
+  color:rgb(25,300,4);
+  font-weight:bold;
+  text-align:center;
+  font-size:42px}
+.title-p{
+  div{
+    width:300px;
+    border:0px;
+    padding:10px;
+    margin:auto;}
+.mini-p{
+  text-align:center;
+  font-size:20px:}
+
 }
+
+}
+  #splash{
+}
+#main{}
