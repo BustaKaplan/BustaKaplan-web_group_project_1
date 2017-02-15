@@ -38,10 +38,10 @@ body {
 }
 
 .title-p {
-  color:rgb(48,213,200);
+  color:rgb(64, 142, 137);
   font-weight:bold;
   text-align:center;
-  font-size:20px;
+  font-size:30px;
 }
 .mini-p{
   text-align:center;
@@ -102,7 +102,11 @@ body {
   margin-right:20%;
   margin-bottom:2em
 }
-
+.blue-bottom{
+  font-size:30px;
+  color:rgb(64, 142, 137);
+  margin-bottom:1em;
+}
 .map-pic{
   width:100%;
 }
