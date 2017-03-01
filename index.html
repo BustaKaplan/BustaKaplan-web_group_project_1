@@ -1,17 +1,18 @@
 <html>
   <head>
-    <title>Kat's Constume Shop</title>
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
       <link href='./assets/css/index.css' media='all' rel='stylesheet'>
       <link rel="stylesheet" type="text/css" href="theme.css">
       <link href="./design/fonts.zip" rel="stylesheet">
-
+<title>Kat's Costume Shop</title>
   </head>
   <body>
-    <image src="assets/images/kats-hero.jpg" alt="Cat in Superhero Costume infront of cityscape" id="Main-kitty">
-
+    <image src="assets/images/kats-hero.jpg" alt="Cat in Superhero Costume infront of cityscape" id="Main-kitty" media="(min-width:660px)">
+    <div class="layered-pics" style="position:relative;">
+      <image src="assets/images/kats-hero-mobile.jpg" alt="Cat in Superhero Costume infront of cityscape" style="position: relative; top: 0; left: 0;" id="Main-kitty-mobile" media="(max-width:660px)">
+      <image src="assets/images/kats-hero-mobile.png" alt="Cat in Superhero Costume infront of cityscape-layer" style="position: absolute; top:  -310; left: 0;"id="Main-kitty-mobile-float" media="(max-width:660px)">
+    </div>
     <nav>
-      Kat's Costume Shop
     </nav>
     <div class=splash>
     </div>
@@ -38,31 +39,31 @@
       <p class="mini-p">Mavis has been designing custom clothes for her three
       cats since she was fifteen years old. She loves working on
       custom orders. Her cats are often roaming freely throughout
-      the store and modeling the latest trends.<br></p>
+      the store and modeling the latest trends.</p>
     </div>
 
   <div class=thecats>
-          <image src="assets/images/kats-cat1.jpg" alt="Kitty no 1" class="orange-kitty">
-          <image src="assets/images/kats-cat2.jpg" alt="Kitty no 2" class="orange-kitty">
-          <image src="assets/images/kats-cat3.jpg" alt="Kitty no 3" class="orange-kitty"></div>
+          <image src="assets/images/kats-cat1.jpg" alt="Kitty no 1" class="orange-kitty1">
+          <image src="assets/images/kats-cat2.jpg" alt="Kitty no 2" class="orange-kitty2">
+          <image src="assets/images/kats-cat3.jpg" alt="Kitty no 3" class="orange-kitty3"></div>
 
       <div class="get-in-touch">
-        <h2><strong>Get In Touch</strong></h2>
+        <h2 class="desktop-only"><strong>Get In Touch</strong></h2>
             <p class="business-hours">
-              <strong class="blue-bottom">Business Hours</strong><br>
+              <strong class="blue-bottom">Business<br class=responsive-break> Hours</strong><br>
               Monday-Friday 11am - 8pm<br>
               Saturday 11am - 4pm<br>
               Sunday 12pm - 4pm<br></p>
 
             <p class="contact-info">
-              <strong class="blue-bottom">Contact Info</strong> <br>
+              <strong class="blue-bottom">Contact <br class=responsive-break>Info</strong> <br>
               Phone (123) 456-7890<br>
               Address
               1234 Imaginary Ln.<br>
               St. Louis, MO 63101</p></div>
         <image src="assets/images/kats-map.jpg" alt="image of map" class="map-pic">
 
-    <footer>
+    <footer class=footer>
       Kat's Costume Shop
     </footer>
   </body>
